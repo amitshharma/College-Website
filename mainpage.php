@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <title>Main page</title>
+    <link rel="stylesheet" href="css/mainpage.css"/>
+	<script src="https://kit.fontawesome.com/496ac9db5e.js" crossorigin="anonymous"></script>
+<?php include("header.php");?>
+  </head>
+  <body>
+<br>
+<br>
+<br>
+	   <section class="home">
+      <div class="slide">
+          <h2>Best University in the world <br> for top courses and Sports</h2>
+          <p>
+             <h6>Ten years running - QS World University Rankings by Subject 2017-2022</h6>
+          </p>
+          <div class="btn">
+           <a href="utube.php"><button class = btn-1 type ="button">Find out why we're number 1 -></button></a>
+          </div>
+      </div>
+      <div class="search">
+          <input type="text" class="input" name="box" placeholder="Search for a Course">
+          <a class="search-btn" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+      </div>
+        </section>
+
+ <section class="achievements">
+          <h1 class="heading"><font color = "black">Achievements</h1></font>
+          <p class="heading-p"><font color = "black">Outstanding achievements testifying our excellence</p></font>
+          <div class="achieve-base">
+            <a href="top.php">
+            <div class="top-box">
+              <div class="top-1">
+                <h5 class="head-top-1">Top ten university</h5>
+                <p class="para-top-1">We're ranked in the top ten in the most recent Complete University Guide,Guardian League Table and the Times and Sunday Times Good University Guide.</p>
+              </div>
+              <div class="top-2">
+              <img src="sec.jpg" class="sec" alt="">
+            </div>
+            </div>
+          </a>
+
+          <a href="sports.php">
+            <div class="ug-box">
+              <div class="ug-1">
+                <h5 class="head-ug-1">World-class Sport</h5>
+                <p class="para-ug-1">Unrivalled sporting reputation offering excellence in research and teaching and opportunities from recreational activities upto the highest levels of elite performance.</p>
+              </div>
+              <div class="ug-2">
+              <img src="sp.jpg" class="sp" alt="">
+              </div>
+            </div>
+          </a>
+
+          <a href="research.php">
+            <div class="res-box">
+              <div class="res-1">
+                <h5 class="head-res-1">World-leading Research</h5>
+                <p class="para-res-1">One of the top 20 research-led universities in the country,Oak Park is renowned for the relevance of its work,driven by society's need for solutions to real life issues.</p>
+              </div>
+              <div class="res-2">
+              <img src="res.jpg" class="res" alt="">
+            </div>
+          </div>
+        </a>
+          </div>
+        </section>
+
+        <section class="courses">
+          <h1 class="course-heading"><font color = "black">Our Top Courses</h1></font>
+          <p class="course-para"><font color = "black">Top courses of our university with the best student experience.</p></font>
+          <div class="course-base">
+            <a href="ug.php">
+            <div class="course-ug-box">
+              <div class="course-ug-1">
+                <img src="ug.jpg" class="ug-i" alt="undergraduate">
+              </div>
+              <div class="course-ug-2">
+                <h5 class="course-head-ug-2">Undergraduate</h5>
+                <p class="course-para-ug-2">Our passion for teaching and research excellence combined with our leading student experience enables our students to make an outstanding contribution to the world.</p>
+            </div>
+            </div>
+          </a>
+
+          <a href="pg.php">
+            <div class="course-pg-box">
+              <div class="course-pg-1">
+                <img src="pg.jpg" class="pg-i" alt="postgraduate">
+              </div>
+              <div class="course-pg-2">
+                <h5 class="course-head-pg-2">Postgraduate</h5>
+                <p class="course-para-pg-2">Our master's degrees and Diplomas are designed to challenge conventional ways of thinking in order to answer some of the world's most pressing questions. </p>
+            </div>
+            </div>
+          </a>
+
+          <a href="web.php">
+            <div class="course-web-box">
+              <div class="course-web-1">
+                <img src="web.jpg" class="web" alt="webdevelopment">
+              </div>
+              <div class="course-web-2">
+                <h5 class="course-head-web-2">Web Development</h5>
+                <p class="course-para-web-2">Our in-house web development team has years of experience providing a full lifecycle website development service from concepts through to site launch and beyond.</p>
+            </div>
+            </div>
+          </a>
+          </div>
+        </section>
+<br>
+<br>
+<br>
+<br>
+<?php include("footer.php");?>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+*{
+padding:0;
+margin:0;
+font-family:nunito;
+}
+body {
+background:#fff;
+background-size:cover;
+}
+.number{
+width:100%;
+}
+.number-head{
+background-color:#571794;
+height:7rem;
+}
+.number-heading{
+font-size:45px;
+color:white;
+padding-top:1.5rem;
+padding-left:6rem;
+}
+.one-text{
+margin-top:5%;
+width:62%;
+margin-left:3%;
+padding-left:20px;
+text-align:left;
+}
+.on-text-1{
+font-size:23px;
+text-align:left;
+}

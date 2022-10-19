@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="registration.js"></script>
+</head>
+<body>
+<div class="main">
+<div class="register">
+<h2>Register Here</h2>
+<form id="register" method="post" action = "dbreg.php">
+<lable>First Name :</lable>
+<br>
+<input type="text" name="f_name" id="f_name" placeholder="Enter Your First Name"><br><br>
+<lable>Last Name :</lable><br>
+<input type="text" name="l_name" id="l_name" placeholder="Enter Your Last Name"><br><br>
+<lable>Date of Birth:</lable><br>
+<input type="Date" name = "dob" id = "dob"><br><br>
+<lable>Your Age :</lable><br>
+<input type="Number" name="age" id="age" placeholder="How old are You?"><br><br>
+<lable>Email :</lable><br>
+<input type="email" name="email" id="email" placeholder="example1@gmail.com"><br><br>
+<lable>Mobile Number: </lable><br>
+<input type="Number" name="mobile_no" id="mobile_no" placeholder="9867******"><br><br>
+<tr>
+<td>Courses:
+</td>&nbsp;&nbsp;&nbsp;
+<select id ="courses" name = "courses">
+<option>Select Option</option>
+<option name="no">B.sc(Computer Science)</option>
+<option name="no">BCA</option>
+<option name="no">BA</option>
+<option name="no">M.sc(Computer Science)</option>
+<option  name="no">MCA</option>
+<option name="no">MA</option>
+</select><br><br>
+<lable>Address: </lable><br>
+<textarea row="11" col="20" name = "address" id="address" placeholder="Address"></textarea><br><br>
+<lable>Pin Code: </lable><br>
+<input type="number" name="pin" id="pin" placeholder="Enter Your Pin Code"><br><br>
+&nbsp;&nbsp;&nbsp;
+<lable><i>Gender:</i></lable>&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" id="gender" value = "male" >
+&nbsp;
+<span id="male">Male</span>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" id="gender" value = "female">
+&nbsp;
+<span id="female">Female</span><br><br>
+<lable>Password: </lable><br>
+<input type="password" name="password" id="password" placeholder="Enter Your password"><br><br>
+&nbsp;&nbsp;&nbsp;
+<input type="submit"value="Submit" name="submit" id="submit">
+<input type="Reset"value="Reset" name="Reset" id="Reset">
+</form>
+
+</body>
+</html>

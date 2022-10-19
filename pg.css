@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+*body{
+ font-family: "Nunito";
+}
+input[type=submit]{
+background-color:#62529c;
+border:none;
+color:#fff;
+padding:15px 40px;
+text-decoration:none;
+margin:4px 2px;
+cursor:pointer;
+}
+input[type=submit]:hover{
+background-color:black;
+}
+.background-color{
+height:70px;
+}
+p{
+color:gray;
+}
+.postgraduation{
+width:100%;
+}
+.postgraduation-head{
+background-color:#571794;
+height:7rem;
+}
+.postgraduation-heading{
+font-size:45px;
+color:white;
+padding-top:1.5rem;
+padding-left:6rem;
+}
+

@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+* {
+  font-family: 'Nunito',sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none
+}
+
+.web{
+    width: 100%;
+}
+
+.web-head{
+    background-color: #e91e63;
+    height: 5rem;
+}
+
+.web-heading{
+	font-size: 40px;
+    color: white;
+    padding-top: 0.8rem;
+    padding-left: 4rem;
+}
+
+.bg{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.pic-text{
+    background: rgb(233, 30, 99);
+    position: relative;
+    margin-top: -2%;
+    color: white;
+    width: 68%;
+    margin-left: 18%;
+    
+}
+
+.text-heading{
+    font-size: 40px;
+    color: white;
+    padding-top: 0.8rem;
+    padding-left: 28px;
+}
+
+.text-para{
+    padding-left: 30px;
+	padding-bottom: 25px;
+    padding-right: 22px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.web-text{
+    margin-top: 4%;
+    width: 62%;
+    margin-left: 17%;
+    padding-left: 20px;
+}
+
+.wb-text-1{
+font-size: 23px;
+}
+
+.wb-text-2{
+    margin-top: 3%;
+    font-size: 17px;
+}
+
+.wb-recent{
+    margin-left: 13%
+}
+
+.rct-heading{
+    font-size: 40px;
+    color: #e91e63;
+    padding-top: 3rem;
+    padding-left: 60px;
+}
+
+.rct-hd{
+    font-size: 32px;
+    color: #e91e63;
+    padding-top: 2rem;
+    padding-left: 60px;
+}
+
+.rct-text-1{
+    margin-top: 3%;
+    margin-left: 3%;
+    padding-left: 25px;
+    font-size: 20px;
+    margin-right: 18%;
+}
+
+.ug-i, .pg-i{
+	width: 100%;
+}
+
+.courses{
+    width: 100%;
+}
+
+.course-head{
+    background-color: #571794;
+    height: 7rem;
+}
+
+.course-heading{
+	font-size: 45px;
+    color: white;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+}
+
+.course-base{
+	display: grid;
+	grid-template-columns: 550px 550px;
+	grid-gap: 2rem;
+    padding: 4vw 6vw 0 6vw;
+	text-align: center;
+}
+
+.course-ug-box, .course-pg-box{
+	text-align: start;
+	margin-top: 2em;
+}
+
+.course-ug-1, .course-pg-1{
+	height: 18rem;
+	overflow: hidden;
+	transition: 0.3s ease;
+}
+
+.course-ug-box:hover img{
+	transform:scale(1.1);
+}
+
+.course-pg-box:hover img{
+	transform:scale(1.1);
+}
+
+.course-ug-2, .course-pg-2{
+	transition: 0.2s;
+}
+
+.course-head-ug-2{
+	font-size: 25px;
+	color: white;
+	padding: 13px 0 7px 0;
+	padding-left: 15px;
+    background-color: #571794;
+}
+
+.course-head-pg-2{
+	font-size: 25px;
+	color: white;
+	padding: 13px 0 7px 0;
+	padding-left: 15px;
+    background-color: #9512af;
+}
+
+.course-para-ug-2{
+	color: white;
+	font-size: 16px;
+	padding-left: 16px;
+	padding-bottom: 20px;
+    background-color: #571794;
+}
+
+.course-para-pg-2{
+	color: white;
+	font-size: 16px;
+	padding-left: 16px;
+	padding-bottom: 20px;
+    background-color: #9512af;
+}
+
+.course-ug-box:hover h5{
+	color: #e91e63;
+    background-color: white;
+}
+
+.course-pg-box:hover h5{
+	color: #e91e63;
+    background-color: white;
+}
+
+.course-ug-box:hover p{
+	color: #9512af;
+    background-color: white;
+}
+
+.course-pg-box:hover p{
+	color: #9512af;
+    background-color: white;
+}
+
+
+
+
+

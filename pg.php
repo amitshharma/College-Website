@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>postgraduation courses</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/pg.css">
+</head>
+<body>
+<div>
+<div class=>
+<div class="postgraduation-head">
+<h1 class="postgraduation-heading">POSTGRADUATE</h1>
+</div>
+<p>With unique student training programs,eminent corporate tie-ups and other potentials,we set our sight on inculcating proficiency,rational skill set in our students.To this, our PG programs are tailor-made for all-in-all student development and industrial adeptness.
+</p>
+<h2 align="center">Our Postgraduation Courses</h2>
+&nbsp;<h2>MCA</h2>
+<ul>
+<li>Computer Application programs at our college consist of core computer module that revolve around the key computer terms like programming,networking etc.</li>
+<li>For admission in MCA,candidate must have scored a minimum of 60%marks in graduation.</li>
+<li>Fees-rs.15000(1st year fees)</li>
+</ul>
+&nbsp;<h2>M.SC</h2>
+<ul>
+<li>We offer different specialisations under the Msc programme.It is a 2 year course,admission to which is conducted trough enterance test.</li>
+<li>For admission in MSc,candidate must have scored a minimum of 60%marks in graduation.</li>
+<li>Fees-rs.13500(1st year fees)</li>
+&nbsp;<h2>MA</h2>
+<ul>
+<li>We offer different specialisations under the MA programme like MA English.It is a 2 year course,admission to which is conducted trough enterance test.</li>
+<li>For admission in MA,candidate must have scored a minimum of 50%marks in graduation.</li>
+<li>Fees-rs.12500(1st year fees)</li>
+</ul><br><br>
+<input type="submit" form="form" value="Apply now">
+</body>
+</html>

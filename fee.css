@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+*{
+padding:8;
+margin:10;
+align:center;
+font-family:nunito;
+}
+body {
+background:#fff;
+background-size:cover;
+margin:center;
+
+}
+.undergraduation{
+width:100%;
+}
+.fees-head{
+background-color:#571794;
+height:7rem;
+}
+.fees-heading{
+font-size:45px;
+color:white;
+padding-top:1.5rem;
+padding-left:6rem;
+}
+input[type=submit]{
+background-color:#571794;
+border:none;
+color:#fff;
+padding:20px 40px;
+text-decoration:none;
+margin:4px 2px;
+font-size:19px;
+cursor:pointer;
+}
+table{
+transform:translate(-50%, -50%);
+border-collapse:collapse;
+align:center;
+width:700px;
+height:150px;
+border:1px solid #bdc3c7;
+box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),  -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+tr{
+transition: all .2s ease-in;
+cursor:pointer;
+}
+th,td{
+padding:15px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+th{
+background-color:#571794;
+color:#fff;
+}
+h2{
+font-weight:600;
+text-align:center;
+background-color:#e91e63;
+color:#fff;
+padding:10px 0px;
+}
+
+

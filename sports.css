@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+* {
+  font-family: 'Nunito',sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none
+}
+
+.sport{
+    width: 100%;
+}
+
+.sport-head{
+    background-color: #571794;
+    height: 5rem;
+}
+
+.sport-heading{
+	font-size: 40px;
+    color: white;
+    padding-top: 0.8rem;
+    padding-left: 6rem;
+}
+
+.bg{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.pic-text{
+    background: rgb(87, 23, 148);
+    position: relative;
+    margin-top: -5%;
+    color: white;
+    width: 65%;
+    margin-left: 3%;
+    
+}
+
+.text-heading{
+    font-size: 40px;
+    color: white;
+    padding-top: 0.8rem;
+    padding-left: 28px;
+}
+
+.text-para{
+    padding-left: 28px;
+	padding-bottom: 25px;
+    padding-right: 22px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.sport-text{
+    margin-top: 4%;
+    width: 62%;
+    margin-left: 3%;
+    padding-left: 20px;
+}
+
+.sp-text-1{
+font-size: 20px;
+}
+
+.sp-text-2{
+    margin-top: 3%;
+    font-size: 17px;
+}
